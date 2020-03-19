@@ -18,6 +18,7 @@ resourceType: a skos:ConceptScheme ;
     dcterms:dateSubmitted "2015-01-21"^^xsd:date ; 
     dc:description "A concept scheme defining the predominant genre, type or kind characterizing a learning resource"@en-US ;
     dc:source "Based in part on the CEDS Learning Resource Type vocabulary found at https://ceds.ed.gov/element/000928"@en-US ;
+    skos:hasTopConcept resourceType:ActivityPlan, resourceType:Assessment, resourceType:AssessmentItem, resourceType:EducatorCurriculumGuide, resourceType:InteractiveLearningSoftware, resourceType:LessonPlan, resourceType:RecordedLesson, resourceType:RubricScoringGuide, resourceType:Textbook, resourceType:UnitPlan;
     adms:status bibo:draft .
 
 resourceType:ActivityPlan a skos:Concept ;
