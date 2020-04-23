@@ -95,7 +95,7 @@ resourceType:Textbook a skos:Concept ;
 resourceType:UnitPlan a skos:Concept ;
     skos:prefLabel "Unit Plan"@en-US ;
     skosxl:prefLabel resourceType:label-UnitPlan ;
-    skos:definition "A long-range plan of instruction on a particular concept. "@en-US ;
+    skos:definition "A long-range plan of instruction on a particular concept."@en-US ;
     skos:scopeNote "A Unit contains several lessons, activities and or assessments that are related."@en-US ;
     skos:inScheme resourceType: ;
     dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928/#Unit"@en-us ;
