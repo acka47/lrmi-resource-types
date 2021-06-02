@@ -12,93 +12,93 @@
 @prefix bibo: <http://purl.org/ontology/bibo/status/> .
 
 resourceType: a skos:ConceptScheme ;
-    dct:title "LRMI Learning Resource Type Vocabulary"@en-US ;
-    dct:creator "LRMI Task Group (DCMI)"@en-US ;
+    dct:title "LRMI Learning Resource Type Vocabulary"@en ;
+    dct:creator "LRMI Task Group (DCMI)"@en ;
     dct:dateSubmitted "2015-01-21"^^xsd:date ;
-    dct:description "A concept scheme defining the predominant genre, type or kind characterizing a learning resource"@en-US ;
-    dct:source "Based in part on the CEDS Learning Resource Type vocabulary found at https://ceds.ed.gov/element/000928"@en-US ;
+    dct:description "A concept scheme defining the predominant genre, type or kind characterizing a learning resource"@en ;
+    dct:source "Based in part on the CEDS Learning Resource Type vocabulary found at https://ceds.ed.gov/element/000928"@en ;
     skos:hasTopConcept resourceType:ActivityPlan, resourceType:Assessment, resourceType:AssessmentItem, resourceType:EducatorCurriculumGuide, resourceType:InteractiveLearningSoftware, resourceType:LessonPlan, resourceType:RecordedLesson, resourceType:RubricScoringGuide, resourceType:Textbook, resourceType:UnitPlan;
     adms:status bibo:draft .
 
 resourceType:ActivityPlan a skos:Concept ;
-    skos:prefLabel "Activity plan"@en-US ;
+    skos:prefLabel "Activity plan"@en ;
     skosxl:prefLabel resourceType:label-ActivityPlan ;
-    skos:definition "A detailed description of an activity engaged in by the learner for the purpose of acquiring certain skills, concepts, or knowledge, whether guided by an instructor or not."@en-US ;
-    skos:scopeNote "There may be several activities in a lesson or an activity may take place outside of a lesson.";
+    skos:definition "A detailed description of an activity engaged in by the learner for the purpose of acquiring certain skills, concepts, or knowledge, whether guided by an instructor or not."@en ;
+    skos:scopeNote "There may be several activities in a lesson or an activity may take place outside of a lesson."@en ;
     skos:inScheme resourceType: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928/#LearningActivity"@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928/#LearningActivity"@en ;
     vs:term_status "unstable" .
 
 resourceType:Assessment a skos:Concept ;
-    skos:prefLabel "Assessment"@en-US ;
+    skos:prefLabel "Assessment"@en ;
     skosxl:prefLabel resourceType:label-alternateAssessment ;
-    skos:definition " A set of assessment items used to evaluate or promote learning."@en-US ;
+    skos:definition " A set of assessment items used to evaluate or promote learning."@en ;
     skos:inScheme resourceType: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928/#Assessment"@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928/#Assessment"@en ;
     vs:term_status "unstable" .
 
 resourceType:AssessmentItem a skos:Concept ;
-    skos:prefLabel "Assessment item"@en-US ;
+    skos:prefLabel "Assessment item"@en ;
     skosxl:prefLabel resourceType:label-assessmentItem ; 
-    skos:definition "A specific prompt, that defines a question or protocol for a measurable activity that triggers a response from a person used to determine whether the person has mastered a learning objective."@en-US ;
+    skos:definition "A specific prompt, that defines a question or protocol for a measurable activity that triggers a response from a person used to determine whether the person has mastered a learning objective."@en ;
     skos:inScheme resourceType: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#AssessmentItem"@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#AssessmentItem"@en ;
     vs:term_status "unstable" .
 
 resourceType:EducatorCurriculumGuide a skos:Concept ;
-    skos:prefLabel "Educator/Curriculum guide"@en-US ;
+    skos:prefLabel "Educator/Curriculum guide"@en ;
     skosxl:prefLabel resourceType:label-EducatorCurriculumGuide ;
-    skos:definition "A document that defines what concepts should be taught and/or how a concept should be taught effectively."@en-US ;
+    skos:definition "A document that defines what concepts should be taught and/or how a concept should be taught effectively."@en ;
     skos:inScheme resourceType: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#EducatorCurriculumGuide"@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#EducatorCurriculumGuide"@en ;
     vs:term_status "unstable" .
 
 resourceType:InteractiveLearningSoftware a skos:Concept ;
-    skos:prefLabel "Interactive Learning Software/Application"@en-US ;
+    skos:prefLabel "Interactive Learning Software/Application"@en ;
     skosxl:prefLabel resourceType:label-InteractiveLearningSoftware ;
-    skos:definition "A software application that enable interactive learning activities."@en-US ;
+    skos:definition "A software application that enable interactive learning activities."@en ;
     skos:inScheme resourceType: ;
     vs:term_status "unstable" .
 
 resourceType:LessonPlan a skos:Concept ;
-    skos:prefLabel "Lesson Plan"@en-US ;
+    skos:prefLabel "Lesson Plan"@en ;
     skosxl:prefLabel resourceType:label-LessonPlan ;
-    skos:definition "A detailed description of the course of instruction for a ­short period of time that is used by a teacher to guide class instruction. A Lesson may define one or more learning activities."@en-US ;
+    skos:definition "A detailed description of the course of instruction for a ­short period of time that is used by a teacher to guide class instruction. A Lesson may define one or more learning activities."@en ;
     skos:inScheme resourceType: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Lesson"@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Lesson"@en ;
     vs:term_status "unstable" .
 
 resourceType:RecordedLesson a skos:Concept ;
-    skos:prefLabel "Recorded lesson"@en-US ;
+    skos:prefLabel "Recorded lesson"@en ;
     skosxl:prefLabel resourceType:label-LessonPlan ;
-    skos:definition "An audio or video recording, or a textual record (e.g. transcript or edited script) of a lesson, lecture or similar short instructional event."@en-US ;
-    skos:scopeNote "Can be used in conjunction with properties such as dcterm:format or with a suitable schema.org Type in order to indicate whether the recording is audio, video or text."@en-us ;
+    skos:definition "An audio or video recording, or a textual record (e.g. transcript or edited script) of a lesson, lecture or similar short instructional event."@en ;
+    skos:scopeNote "Can be used in conjunction with properties such as dcterm:format or with a suitable schema.org Type in order to indicate whether the recording is audio, video or text."@en ;
     skos:inScheme resourceType: ;
     vs:term_status "unstable" .
 
 resourceType:RubricScoringGuide a skos:Concept ;
-    skos:prefLabel "Rubric/Scoring guide"@en-US ;
+    skos:prefLabel "Rubric/Scoring guide"@en ;
     skosxl:prefLabel resourceType:label-RubricScoringGuide ;
-    skos:definition "A document or guide that is used to delineate consistent criteria for example in various forms of assessment and evaluation."@en-US ;
+    skos:definition "A document or guide that is used to delineate consistent criteria for example in various forms of assessment and evaluation."@en ;
     skos:inScheme resourceType: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#RubricScoringGuide"@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#RubricScoringGuide"@en ;
     vs:term_status "unstable" .
 
 resourceType:Textbook a skos:Concept ;
-    skos:prefLabel "Textbook"@en-US ;
+    skos:prefLabel "Textbook"@en ;
     skosxl:prefLabel resourceType:label-Textbook ;
-    skos:definition "A book used as a standard source of information on a particular subject."@en-US ;
+    skos:definition "A book used as a standard source of information on a particular subject."@en ;
     skos:inScheme resourceType: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Textbook"@en-US ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#Textbook"@en ;
     vs:term_status "unstable" .
 
 resourceType:UnitPlan a skos:Concept ;
-    skos:prefLabel "Unit Plan"@en-US ;
+    skos:prefLabel "Unit Plan"@en ;
     skosxl:prefLabel resourceType:label-UnitPlan ;
-    skos:definition "A long-range plan of instruction on a particular concept."@en-US ;
-    skos:scopeNote "A Unit contains several lessons, activities and or assessments that are related."@en-US ;
+    skos:definition "A long-range plan of instruction on a particular concept."@en ;
+    skos:scopeNote "A Unit contains several lessons, activities and or assessments that are related."@en ;
     skos:inScheme resourceType: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928/#Unit"@en-us ;
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928/#Unit"@en ;
     vs:term_status "unstable" .
     
 #=============================
@@ -106,31 +106,31 @@ resourceType:UnitPlan a skos:Concept ;
 #=============================
 
 resourceType:label-ActivityPlan a skosxl:label ;
-    skosxl:literalForm "Activity plan"@en-US .
+    skosxl:literalForm "Activity plan"@en .
 
 resourceType:label-Assessment a skosxl:label ;
-    skosxl:literalForm "Assessment"@en-US .
+    skosxl:literalForm "Assessment"@en .
 
 resourceType:label-AssessmentItem a skosxl:label ;
-    skosxl:literalForm "Assessment item"@en-US .
+    skosxl:literalForm "Assessment item"@en .
 
 resourceType:label-EducatorCurriculumGuide a skosxl:label ;
-    skosxl:literalForm "Educator/Curriculum guide"@en-US .
+    skosxl:literalForm "Educator/Curriculum guide"@en .
 
 resourceType:label-InteractiveLearningSoftware a skosxl:label ;
-    skosxl:literalForm "Interactive Learning Software/Applications"@en-US .
+    skosxl:literalForm "Interactive Learning Software/Applications"@en .
 
 resourceType:label-LessonPlan a skosxl:label ;
-    skosxl:literalForm "Lesson plan"@en-US .
+    skosxl:literalForm "Lesson plan"@en .
 
 resourceType:label-RecordedLesson a skosxl:label ;
-    skosxl:literalForm "Recorded lesson"@en-US .
+    skosxl:literalForm "Recorded lesson"@en .
 
 resourceType:label-RubricScoringGuide a skosxl:label ;
-    skosxl:literalForm "Rubric/Scoring guide"@en-US .
+    skosxl:literalForm "Rubric/Scoring guide"@en .
 
 resourceType:label-Textbook a skosxl:label ;
-    skosxl:literalForm "Textbook"@en-US .
+    skosxl:literalForm "Textbook"@en .
 
 resourceType:label-UnitPlan a skosxl:label ;
-    skosxl:literalForm "Unit Plan"@en-US .
+    skosxl:literalForm "Unit Plan"@en .
