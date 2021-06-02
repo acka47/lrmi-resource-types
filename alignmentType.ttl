@@ -14,7 +14,8 @@ alignment: a skos:ConceptScheme ;
     dc:creator "LRMI Task Group (DCMI)"@en ;
     dct:created "2017-03-01"^^xsd:date ;
     dct:modified "2017-12-20"^^xsd:date ;
-    dct:license <http://creativecommons.org/licenses/by/4.0/> .
+    dct:license <http://creativecommons.org/licenses/by/4.0/>;
+    skos:hasTopConcept  alignment:assesses, alignment:complexityLevel, alignment:educationalLevel, alignment:educationalSubject, alignment:prerequisite, alignment:readingLevel, alignment:teaches .
 
 alignment:assesses a skos:Concept ;
     skos:prefLabel "assesses"@en ;

@@ -16,7 +16,8 @@ interact: a skos:ConceptScheme ;
     dct:source "Based on the IEEE Learning Object Metadata standard (IEEE/LOM - IEEE 1484.12.1-202)."@en ;
     dct:created "2017-03-01"^^xsd:date ;
     dct:modified "2017-12-20"^^xsd:date ;
-    dct:license <http://creativecommons.org/licenses/by/4.0/> .
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    skos:hastTopConcept interact:active, interact:expositive, interact:mixed .
 
 interact:active a skos:Concept ;
     skos:prefLabel "active"@en ;
