@@ -18,7 +18,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullKeyboardControl> a skos:Concept ;
     skos:prefLabel "Full Keyboard Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullKeyboardControl> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullKeyboardControl> ;
     skos:altLabel "fullKeyboardControl"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
@@ -32,7 +32,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullMouseControl> a skos:Concept ;
     skos:prefLabel "Full Mouse Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullMouseControl> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullMouseControl> ;
     skos:altLabel "fullMouseControl"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
@@ -47,7 +47,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullSwitchControl> a skos:Concept ;
     skos:prefLabel "Full Switch Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullSwitchControl> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullSwitchControl> ;
     skos:altLabel "fullSwitchControl"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
@@ -62,7 +62,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullTouchControl> a skos:Concept ;
     skos:prefLabel "Full Touch Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullTouchControl> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullTouchControl> ;
     skos:altLabel "fullTouchControl"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
@@ -77,7 +77,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVideoControl> a skos:Concept ;
     skos:prefLabel "Full Video Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVideoControl> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVideoControl> ;
     skos:altLabel "fullVideoControl"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
@@ -92,7 +92,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVoiceControl> a skos:Concept ;
     skos:prefLabel "Full Voice Control"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVoiceControl> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVoiceControl> ;
     skos:altLabel "fullVoiceControl"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,

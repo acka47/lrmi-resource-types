@@ -22,7 +22,7 @@
         
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/flashing> a skos:Concept ;
     skos:prefLabel "Flashing"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-flashing> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-flashing> ;
     skos:altLabel "flashing"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
@@ -37,7 +37,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noFlashingHazard> a skos:Concept ;
     skos:prefLabel "No Flashing Hazard"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noFlashingHazard> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noFlashingHazard> ;
     skos:altLabel "noFlashingHazard"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
@@ -52,7 +52,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/motionSimulation> a skos:Concept ;
     skos:prefLabel "Motion Simulation"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-motionSimulation> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-motionSimulation> ;
     skos:altLabel "motionSimulation"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
@@ -67,7 +67,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noMotionSimulationHazard> a skos:Concept ;
     skos:prefLabel "No Motion Simulation Hazard"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noMotionSimulationHazard> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noMotionSimulationHazard> ;
     skos:altLabel "noMotionSimulationHazard"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
@@ -82,7 +82,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/sound> a skos:Concept ;
     skos:prefLabel "Sound"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-sound> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-sound> ;
     skos:altLabel "sound"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
@@ -97,7 +97,7 @@
     
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noSoundHazard> a skos:Concept ;
     skos:prefLabel "No Sound Hazard"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noSoundHazard> ;    
+    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/label-noSoundHazard> ;
     skos:altLabel "noSoundHazard"@en ;
     skos:definition "@@@"@en ;
     dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,

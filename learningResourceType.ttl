@@ -39,7 +39,7 @@ resourceType:Assessment a skos:Concept ;
 
 resourceType:AssessmentItem a skos:Concept ;
     skos:prefLabel "Assessment item"@en ;
-    skosxl:prefLabel resourceType:label-assessmentItem ; 
+    skosxl:prefLabel resourceType:label-assessmentItem ;
     skos:definition "A specific prompt, that defines a question or protocol for a measurable activity that triggers a response from a person used to determine whether the person has mastered a learning objective."@en ;
     skos:inScheme resourceType: ;
     dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000928#AssessmentItem"@en ;

@@ -10,26 +10,26 @@
 
 edUse: a skos:ConceptScheme ;
     dc:title "LRMI Educational Use vocabulary" ;
-    dc:creator "LRMI Task Group (DCMI)"@en-US ;
-    dct:description "A concept scheme that enumerates the educational uses of a learning resource."@en-US ;
+    dc:creator "LRMI Task Group (DCMI)"@en ;
+    dct:description "A concept scheme that enumerates the educational uses of a learning resource."@en ;
     dct:created "2017-03-01"^^xsd:date ;
-    dct:modified "2017-12-20"^^xsd:date ;    
+    dct:modified "2017-12-20"^^xsd:date ;
     dct:license <http://creativecommons.org/licenses/by/4.0/> .
     
 edUse:assessment a skos:Concept ;
-    skos:prefLabel "assessment"@en-US ;
-    skos:definition "Primary purpose of the resource is to evaluate learning, before, during, or after instruction occurs."@en-US ;
+    skos:prefLabel "assessment"@en ;
+    skos:definition "Primary purpose of the resource is to evaluate learning, before, during, or after instruction occurs."@en ;
     skos:inScheme edUse: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment"@en-US .           
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#Assessment"@en .           
 
 edUse:instruction a skos:Concept ;
-    skos:prefLabel "instruction"@en-US ;
-    skos:definition "Primary purpose of the resource is to support the instructional process, student learning, or to provide information about the curriculum."@en-US ;
+    skos:prefLabel "instruction"@en ;
+    skos:definition "Primary purpose of the resource is to support the instructional process, student learning, or to provide information about the curriculum."@en ;
     skos:inScheme edUse: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#CurriculumInstruction"@en-US .  
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#CurriculumInstruction"@en .  
 
 edUse:professionalSupport a skos:Concept ;
-    skos:prefLabel "professional support"@en-US ;
-    skos:definition "Primary purpose of the resource is to provide instruction for a teacher or other education professional including professional development."@en-US ;
+    skos:prefLabel "professional support"@en ;
+    skos:definition "Primary purpose of the resource is to provide instruction for a teacher or other education professional including professional development."@en ;
     skos:inScheme edUse: ;
-    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"@en-US .
+    dct:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/001002#ProfessionalDevelopment"@en .
