@@ -9,7 +9,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 edUse: a skos:ConceptScheme ;
-    dct:title "LRMI Educational Use vocabulary" ;
+    dct:title "LRMI Educational Use vocabulary"@en ;
     dct:creator "LRMI Task Group (DCMI)"@en ;
     dct:description "A concept scheme that enumerates the educational uses of a learning resource."@en ;
     dct:created "2017-03-01"^^xsd:date ;
