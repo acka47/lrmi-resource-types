@@ -18,43 +18,43 @@ audRole: a skos:ConceptScheme;
   skos:hasTopConcept audRole:administrator, audRole:generalPublic, audRole:mentor, audRole:parent, audRole:peerTutor, audRole:professional, audRole:student, audRole:teacher .  
   
 audRole:administrator a skos:Concept;
-  skos:prefLabel "administrator"@en;
-  skos:definition "A trainer or educator with administrative authority and responsibility."@en;
+  skos:prefLabel "administrator"@en, "Verwaltung"@de;
+  skos:definition "A trainer or educator with administrative authority and responsibility."@en, "Trainer*innen oder Lehrpersonen mit Verwaltungsverantwortung"@de;
   skos:inScheme audRole: .
 
 audRole:generalPublic a skos:Concept;
-  skos:prefLabel "general public"@en;
-  skos:definition "The public at large."@en;
+  skos:prefLabel "general public"@en, "Bevölkerung allgemein"@de;
+  skos:definition "The public at large."@en, "Die breite Öffentlichkeit"@de;
   skos:inScheme audRole: .
   
 audRole:mentor a skos:Concept;
-  skos:prefLabel "mentor"@en;
-  skos:definition "Someone who advises, trains, supports, and/or guides."@en;
+  skos:prefLabel "mentor"@en, "Mentor"@de;
+  skos:definition "Someone who advises, trains, supports, and/or guides."@en, "Jemand der berät, trainiert, unterstützt und/oder anleitet."@de;
   skos:inScheme audRole: .  
 
 audRole:parent a skos:Concept;
-  skos:prefLabel "parent"@en;
-  skos:definition "A father, mother, or legal guardian."@en;
+  skos:prefLabel "parent"@en, "Eltern"@de;
+  skos:definition "A father, mother, or legal guardian."@en, "Eine Mutter, ein Vater oder Erziehungsberechtigter"@de;
   skos:inScheme audRole: .
   
 audRole:peerTutor a skos:Concept;
-  skos:prefLabel "peer tutor"@en;
-  skos:definition "The peer learner serving as tutor of another learner."@en;
+  skos:prefLabel "peer tutor"@en, "Peer-Tutor*in"@de;
+  skos:definition "The peer learner serving as tutor of another learner."@en, "Eine lernende Person gleichen Rangs, die als Tutor einer anderen Person agiert"@de;
   skos:broader audRole:student;
   skos:inScheme audRole: .  
        
 audRole:professional a skos:Concept;
-  skos:prefLabel "professional"@en;
-  skos:definition "Someone already practicing a profession;an industry partner, or professional development trainer."@en;
+  skos:prefLabel "professional"@en, "Fachkraft"@de;
+  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en, "Eine Person mit Erfahrung in einem Fach; Branchenpartner*in oder Trainer*in für berufliche Weiterbildung"@de;
   skos:inScheme audRole: .
        
 audRole:student a skos:Concept;
-  skos:prefLabel "student"@en;
-  skos:definition "The learner or trainee."@en;
+  skos:prefLabel "student"@en, "Lernende"@de;
+  skos:definition "The learner or trainee."@en, "Lerner*in oder Trainee"@de;
   skos:narrower audRole:peerTutor;
   skos:inScheme audRole: .
        
 audRole:teacher a skos:Concept;
-  skos:prefLabel "teacher"@en;
-  skos:definition "A person who has been trained to implement educational methods and practices."@en ;
+  skos:prefLabel "teacher"@en, "Lehrperson"@de;
+  skos:definition "A person who has been trained to implement educational methods and practices."@en, "Eine Person, die ausgebildet wurde, pädagogische Methoden und Praktiken umzusetzen"@de ;
   skos:inScheme audRole: .            
